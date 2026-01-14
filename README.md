@@ -15,7 +15,7 @@ A curated collection of **sliding window algorithm problems** covering fixed, va
 
 ## 📂 Repo Structure
 
-sliding-window-patterns/  
+sliding-window-mastery/  
 ├── README.md                  # This file  
 ├── 3_longest_substring.py     # Variable window, unique chars  
 ├── 424_longest_repeat_char.py # Max freq, at most K replacements  
