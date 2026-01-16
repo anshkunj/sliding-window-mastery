@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/anshkunj/sliding-window-mastery/blob/bc13502c4738eb1dba6e949ba6ec557502d39309/IMG_20260116_093935.jpg" alt="Sliding Window Mastery" width="1200">
+  <img src="https://github.com/anshkunj/sliding-window-mastery/blob/d3badf525b12edb39096c559542ef67f912597aa/1768559036081.jpg" alt="Sliding Window Mastery" width="1200">
 </p>
 
 <h1 align="center">Sliding Window Mastery</h1>
