@@ -24,20 +24,16 @@ A curated collection of **sliding window algorithm problems** covering fixed, va
 
 sliding-window-mastery/  
 ├── README.md                  # This file  
-├── 3_longest_substring.py     # Variable window, unique chars  
-├── 424_longest_repeat_char.py # Max freq, at most K replacements  
-├── 487_max_consec_ones_II.py  
-├── 525_contiguous_array.py  
-├── 560_subarray_sum_equals_k.py  
-├── 904_fruit_into_baskets.py  
-├── 1004_max_consec_ones_III.py  
+├── main.py  
+├── logic.py  
+├── models.py    
 └── ... (add more sliding window problems)  
 
 ---
 
 ## 🏗️ How This Repo Works
-- Each `.py` file contains a single problem solution  
-- Sliding window logic is explained in **comments + diagrams**  
+- logic.py contain logic of all problems  
+- Sliding window logic is explained  
 - Key patterns highlighted for **real-world applications**  
 - Focus on **maximum length / sum / frequency** using efficient O(n) techniques  
 
@@ -80,19 +76,6 @@ Base URL:
 https://sliding-window-mastery.onrender.com  
 Docs:  
 https://sliding-window-mastery.onrender.com/docs
-
----
-
-## 🧪 Example (Longest Repeating Character Replacement)
-
-s = "AABABBA"  
-k = 1  
-print(longest_repeating_char_replacement(s, k))  
-# Output: 4  
-
-- Tracks window counts  
-- Shrinks window when replacements needed > k  
-- Uses **stale max frequency trick** for O(n) solution  
 
 ---
 
