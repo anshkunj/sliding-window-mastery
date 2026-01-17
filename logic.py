@@ -7,7 +7,7 @@ Each function is standalone and can be imported in main.py
 from collections import defaultdict
 from typing import List
 
-# 1️⃣ LeetCode 3 – Longest Substring Without Repeating Characters
+# 1️⃣ Longest Substring Without Repeating Characters
 def length_of_longest_substring(s: str) -> int:
     char_index = {}
     l = 0
@@ -19,7 +19,7 @@ def length_of_longest_substring(s: str) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 2️⃣ LeetCode 209 – Minimum Size Subarray Sum
+# 2️⃣ Minimum Size Subarray Sum
 def min_subarray_len(target: int, nums: List[int]) -> int:
     l = 0
     total = 0
@@ -32,7 +32,7 @@ def min_subarray_len(target: int, nums: List[int]) -> int:
             l += 1
     return 0 if min_len == float('inf') else min_len
 
-# 3️⃣ LeetCode 340 – Longest Substring with At Most K Distinct Characters
+# 3️⃣ Longest Substring with At Most K Distinct Characters
 def length_of_longest_k_distinct(s: str, k: int) -> int:
     freq = defaultdict(int)
     l = 0
@@ -47,7 +47,7 @@ def length_of_longest_k_distinct(s: str, k: int) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 4️⃣ LeetCode 424 – Longest Repeating Character Replacement
+# 4️⃣ Longest Repeating Character Replacement
 def character_replacement(s: str, k: int) -> int:
     freq = defaultdict(int)
     l = 0
@@ -62,7 +62,7 @@ def character_replacement(s: str, k: int) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 5️⃣ LeetCode 487 – Max Consecutive Ones II
+# 5️⃣ Max Consecutive Ones II
 def find_max_consecutive_ones(nums: List[int]) -> int:
     l = 0
     k = 1  # allowed flip
@@ -77,7 +77,7 @@ def find_max_consecutive_ones(nums: List[int]) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 6️⃣ LeetCode 525 – Contiguous Array
+# 6️⃣ Contiguous Array
 def find_max_length(nums: List[int]) -> int:
     prefix_map = {0: -1}
     max_len = 0
@@ -90,7 +90,7 @@ def find_max_length(nums: List[int]) -> int:
             prefix_map[count] = i
     return max_len
 
-# 7️⃣ LeetCode 560 – Subarray Sum Equals K
+# 7️⃣ Subarray Sum Equals K
 def subarray_sum(nums: List[int], k: int) -> int:
     count = 0
     prefix = {0:1}
@@ -101,7 +101,7 @@ def subarray_sum(nums: List[int], k: int) -> int:
         prefix[total] = prefix.get(total, 0) + 1
     return count
 
-# 8️⃣ LeetCode 904 – Fruit Into Baskets
+# 8️⃣ Fruit Into Baskets
 def total_fruit(fruits: List[int]) -> int:
     freq = defaultdict(int)
     l = 0
@@ -116,7 +116,7 @@ def total_fruit(fruits: List[int]) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 9️⃣ LeetCode 1004 – Max Consecutive Ones III
+# 9️⃣ Max Consecutive Ones III
 def longest_ones(nums: List[int], k: int) -> int:
     l = 0
     max_len = 0
@@ -130,7 +130,7 @@ def longest_ones(nums: List[int], k: int) -> int:
         max_len = max(max_len, r - l + 1)
     return max_len
 
-# 1️⃣0️⃣ LeetCode 992 – Subarrays with K Different Integers
+# 1️⃣0️⃣ Subarrays with K Different Integers
 def subarrays_with_k_distinct(nums: List[int], k: int) -> int:
     # Helper for at most K
     def at_most(k):
@@ -150,7 +150,7 @@ def subarrays_with_k_distinct(nums: List[int], k: int) -> int:
         return res
     return at_most(k) - at_most(k-1)
 
-# 1️⃣1️⃣ LeetCode 862 – Shortest Subarray with Sum at Least K (Sliding Window Variant)
+# 1️⃣1️⃣ Shortest Subarray with Sum at Least K (Sliding Window Variant)
 def shortest_subarray(nums: List[int], k: int) -> int:
     from collections import deque
     n = len(nums)
@@ -167,7 +167,7 @@ def shortest_subarray(nums: List[int], k: int) -> int:
         dq.append(i)
     return res if res <= n else -1
 
-# 1️⃣2️⃣ LeetCode 930 – Binary Subarrays With Sum
+# 1️⃣2️⃣ Binary Subarrays With Sum
 def num_subarrays_with_sum(nums: List[int], goal: int) -> int:
     prefix = {0:1}
     total = 0
