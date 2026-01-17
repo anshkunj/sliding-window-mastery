@@ -78,6 +78,130 @@ Docs: https://sliding-window-mastery.onrender.com/docs
 
 ---
 
+## 🔗 Endpoints – Sliding Window Mastery
+
+This section documents conceptual API-style endpoints mapped directly to the functions
+implemented in logic.py using the Sliding Window technique.
+Each endpoint includes example input and expected output.
+
+### 1️⃣ Longest Substring Without Repeating Characters
+Endpoint: /sliding-window/longest-substring-without-repeating
+
+Input:
+s = "abcabcbb"
+
+Output:
+length = 3
+
+### 2️⃣ Minimum Size Subarray Sum
+Endpoint: /sliding-window/min-size-subarray-sum
+
+Input:
+target = 7
+nums = [2,3,1,2,4,3]
+
+Output:
+minLength = 2
+
+### 3️⃣ Longest Substring with At Most K Distinct Characters
+Endpoint: /sliding-window/longest-substring-k-distinct
+
+Input:
+s = "eceba"
+k = 2
+
+Output:
+length = 3
+
+### 4️⃣ Longest Repeating Character Replacement
+Endpoint: /sliding-window/character-replacement
+
+Input:
+s = "AABABBA"
+k = 1
+
+Output:
+length = 4
+
+### 5️⃣ Max Consecutive Ones II
+Endpoint: /sliding-window/max-consecutive-ones-ii
+
+Input:
+nums = [1,0,1,1,0]
+
+Output:
+maxLength = 4
+
+### 6️⃣ Contiguous Array
+Endpoint: /prefix-sliding/contiguous-array
+
+Input:
+nums = [0,1,0,1]
+
+Output:
+maxLength = 4
+
+### 7️⃣ Subarray Sum Equals K
+Endpoint: /prefix-sliding/subarray-sum-k
+
+Input:
+nums = [1,2,3]
+k = 3
+
+Output:
+count = 2
+
+### 8️⃣ Fruit Into Baskets
+Endpoint: /sliding-window/fruit-into-baskets
+
+Input:
+fruits = [1,2,1]
+
+Output:
+maxFruits = 3
+
+### 9️⃣ Max Consecutive Ones III
+Endpoint: /sliding-window/max-consecutive-ones-iii
+
+Input:
+nums = [1,1,1,0,0,0,1,1,1,1,0]
+k = 2
+
+Output:
+maxLength = 6
+
+### 1️⃣0️⃣ Subarrays With K Different Integers
+Endpoint: /sliding-window/subarrays-with-k-distinct
+
+Input:
+nums = [1,2,1,2,3]
+k = 2
+
+Output:
+count = 7
+
+### 1️⃣1️⃣ Shortest Subarray With Sum At Least K
+Endpoint: /sliding-window/shortest-subarray-at-least-k
+
+Input:
+nums = [2,-1,2]
+k = 3
+
+Output:
+length = 3
+
+### 1️⃣2️⃣ Binary Subarrays With Sum
+Endpoint: /prefix-sliding/binary-subarrays-with-sum
+
+Input:
+nums = [1,0,1,0,1]
+goal = 2
+
+Output:
+count = 4
+
+---
+
 ## 🚧 Edge Cases Handled
 - Empty arrays / strings  
 - Large input sizes (up to 10^5)  
