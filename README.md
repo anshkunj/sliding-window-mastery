@@ -21,7 +21,7 @@ A curated collection of **sliding window algorithm problems** covering fixed, va
 ---
 
 ## 📂 Repo Structure
-
+```
 sliding-window-mastery/  
 ├── main.py          # FastAPI app & routes  
 ├── logic.py         # Core algorithm implementations  
@@ -31,7 +31,7 @@ sliding-window-mastery/
 ├── render.yaml  
 ├── README.md        # Project Overview  
 └── LICENSE         # License file (MIT)  
-
+```
 ---
 
 ## 🏗️ How This Repo Works
