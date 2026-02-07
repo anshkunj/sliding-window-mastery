@@ -26,8 +26,9 @@ sliding-window-mastery/
 ├── main.py          # FastAPI app & routes  
 ├── logic.py         # Core algorithm implementations  
 ├── models.py        # Pydantic request models  
+├── .gitignore  
 ├── requirements.txt  
-├── render.yaml
+├── render.yaml  
 ├── README.md        # Project Overview  
 └── LICENSE         # License file (MIT)  
 
