@@ -27,8 +27,9 @@ sliding-window-mastery/
 ├── logic.py         # Core algorithm implementations  
 ├── models.py        # Pydantic request models  
 ├── requirements.txt  
-├── README.md  
-└── LICENSE  
+├── render.yaml
+├── README.md        # Project Overview  
+└── LICENSE         # License file (MIT)  
 
 ---
 
